@@ -1,7 +1,7 @@
 {
   "name": "xmlhttprequest",
   "description": "XMLHttpRequest for Node",
-  "version": "1.8.5",
+  "version": "1.8.6",
   "author": {
     "name": "Dan DeFelippi",
     "url": "http://driverdan.com"
@@ -25,10 +25,6 @@
   },
   "main": "./lib/XMLHttpRequest.js",
   "dependencies": {
-    "child_process": "^1.0.2",
-    "fs": "0.0.1-security",
-    "http": "0.0.0",
-    "https": "^1.0.0",
     "url": "^0.11.0"
   },
   "browser": {
