@@ -1,7 +1,7 @@
 {
   "name": "xmlhttprequest",
   "description": "XMLHttpRequest for Node",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "author": {
     "name": "Dan DeFelippi",
     "url": "http://driverdan.com"
@@ -30,5 +30,9 @@
     "http": "0.0.0",
     "https": "^1.0.0",
     "url": "^0.11.0"
+  },
+  "browser": {
+    "fs": false,
+    "child_process": false
   }
 }
